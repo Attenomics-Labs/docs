@@ -34,21 +34,22 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Use Cases",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Use Cases",
             "pages": [
-              "api-reference/introduction"
+              "use-cases/introduction"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Category",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "use-cases/category/attention-campaigns",
+              "use-cases/category/consumer-apps",
+              "use-cases/category/prediction-markets",
+              "use-cases/category/reputation-systems",
+              "use-cases/category/sentiment-voting"
             ]
           }
         ]
@@ -56,11 +57,6 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.attenomics.com",
-          "icon": "book-open-cover"
-        },
         {
           "anchor": "Community",
           "href": "https://t.me/+nL8emFdTO_5kYzZl",
@@ -81,13 +77,13 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Contact Us",
         "href": "mailto:team@attenomics.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Open App",
       "href": "https://attenomics.com"
     }
   },
