@@ -1,107 +1,51 @@
 ---
 title: 'Development'
-description: 'Preview changes locally to update your docs'
+description: 'Build on top of the Attention Layer (coming soon)'
 ---
 
-<Info>
-  **Prerequisite**: Please install Node.js (version 19 or higher) before proceeding. <br />
-  Please upgrade to ```docs.json``` before proceeding and delete the legacy ```mint.json``` file.
-</Info>
+# Developer Access
 
-Follow these steps to install and run Mintlify on your operating system:
+We’re building the **Attention Layer** — a permissionless infrastructure where anyone can build, remix, or compose new use cases on top of verifiable attention data.
 
-**Step 1**: Install Mintlify:
+Right now, Attenomics is in early access. But soon, the infrastructure will be fully open to developers.
 
-<CodeGroup>
+---
 
-  ```bash npm
-  npm i -g mintlify
-  ```
+## What You’ll Be Able to Build
 
-```bash yarn
-yarn global add mintlify
-```
+- **Custom Attention Campaigns**  
+  Spin up your own campaigns and route rewards based on attention earned.
 
-</CodeGroup>
+- **Loyalty and Referral Apps**  
+  Use attention as a reward unit across existing communities.
 
-**Step 2**: Navigate to the docs directory (where the `docs.json` file is located) and execute the following command:
+- **Prediction Markets & Fan Indexes**  
+  Create attention-driven outcomes like leaderboard voting, launch sentiment, and fan-powered decision making.
 
-```bash
-mintlify dev
-```
+- **Composability Hooks**  
+  Plug attention scores into other contracts, LLMs, or social graphs.
 
-A local preview of your documentation will be available at `http://localhost:3000`.
+---
 
-### Custom Ports
+## What's Coming
 
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. To run Mintlify on port 3333, for instance, use this command:
+- ✅ Open APIs to query user/creator attention  
+- ✅ Smart contracts to read/write on-chain shares  
+- ✅ SDKs to create, distribute, and analyze attention flows  
+- ✅ Developer dashboard for testing + campaign simulation
 
-```bash
-mintlify dev --port 3333
-```
+> Think of it as a social layer that anyone can build on — with real-time signals.
 
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
+---
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
+## Want Early Access?
 
-## Mintlify Versions
+If you’re a dev, ecosystem contributor, or infra builder — we’d love to share the early version with you.
 
-Please note that each CLI release is associated with a specific version of Mintlify. If your local website doesn't align with the production version, please update the CLI:
+→ [Ping us at team@attenomics.com](mailto:team@attenomics.com)  
+→ Or drop into our [Telegram dev group](https://t.me/attenomics)
 
-<CodeGroup>
+---
 
-```bash npm
-npm i -g mintlify@latest
-```
-
-```bash yarn
-yarn global upgrade mintlify
-```
-
-</CodeGroup>
-
-## Validating Links
-
-The CLI can assist with validating reference links made in your documentation. To identify any broken links, use the following command:
-
-```bash
-mintlify broken-links
-```
-
-## Deployment
-
-<Tip>
-  Unlimited editors available under the [Pro
-  Plan](https://mintlify.com/pricing) and above.
-</Tip>
-
-If the deployment is successful, you should see the following:
-
-<Frame>
-  <img src="/images/checks-passed.png" style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Code Formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-
-    This may be due to an outdated version of node. Try the following:
-    1. Remove the currently-installed version of mintlify: `npm remove -g mintlify`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall mintlify: `npm install -g mintlify`
-  </Accordion>
-
-  <Accordion title="Issue: Encountering an unknown error">
-  
-    Solution: Go to the root of your device and delete the \~/.mintlify folder. Afterwards, run `mintlify dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in the CLI version? [Check out the CLI changelog.](https://www.npmjs.com/package/mintlify?activeTab=versions)
+Stay tuned — the internet runs on attention.  
+We’re just making it programmable.
