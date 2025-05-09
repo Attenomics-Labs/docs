@@ -22,13 +22,13 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Tokenomics",
             "pages": [
-              "essentials/attention-mining",
-              "essentials/attention-points",
-              "essentials/creator-rewards",
-              "essentials/fan-rankings",
-              "essentials/use-cases"
+              "tokenomics/creator-tokens",
+              "tokenomics/fan-distribution",     
+              "tokenomics/attention-metrics",     
+              "tokenomics/user-portfolio",
+              "tokenomics/speculative-market"
             ]
           }
         ]
