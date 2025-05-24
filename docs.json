@@ -14,37 +14,39 @@
         "tab": "Overview",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Introduction",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/quickstart/for-users",
+              "docs/quickstart/for-creators",
+              "docs/quickstart/for-brands",
+              "development"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Core Concepts",
+        "groups": [
           {
             "group": "Essentials",
             "pages": [
               "essentials/attention-mining",
               "essentials/attention-points",
               "essentials/creator-rewards",
-              "essentials/fan-rankings",
-              "essentials/use-cases"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Use Cases",
-        "groups": [
-          {
-            "group": "Use Cases",
-            "pages": [
-              "use-cases/introduction"
+              "essentials/fan-rankings"
             ]
           },
           {
-            "group": "Category",
+            "group": "Use Cases & Applications",
             "pages": [
+              "essentials/use-cases",
+              "use-cases/introduction",
               "use-cases/category/attention-campaigns",
               "use-cases/category/consumer-apps",
               "use-cases/category/prediction-markets",
